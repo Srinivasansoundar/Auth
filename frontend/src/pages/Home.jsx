@@ -22,7 +22,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "https://auth-topaz-six.vercel.app//auth/products";
+            const url = "https://auth-topaz-six.vercel.app/auth/products";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
