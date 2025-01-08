@@ -27,7 +27,7 @@ function Login() {
             return handleError('email and password are required')
         }
         try {
-            const url = `auth-topaz-six.vercel.app/auth/login`;
+            const url = `https://auth-topaz-six.vercel.app//auth/login`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
